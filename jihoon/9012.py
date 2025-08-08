@@ -13,7 +13,7 @@ for _ in range(N):
             else:
                 stack.pop()
 
-    if len(stack) != 0:
+    if stack:
         answer = "NO"
 
     print(answer)
